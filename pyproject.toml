@@ -1,0 +1,8 @@
+[project]
+name = "piper1-quantization"
+version = "0.1.0"
+dependencies = [
+    "onnxconverter_common==1.14.0",
+    "onnx==1.16.1",
+    "numpy<2.0.0"
+]
